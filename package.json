@@ -2,7 +2,7 @@
     "name": "mfcobol",
     "displayName": "MF COBOL",
     "description": "MF COBOL support",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "gmonteeeiro",
     "keywords": [
         "cobol",
