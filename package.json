@@ -92,7 +92,8 @@
                         62,
                         65,
                         68,
-                        70
+                        71,
+                        74
                     ],
                     "description": "COBOL tabstops"
                 },
@@ -214,13 +215,12 @@
                     7,
                     72
                 ],
-                "editor.detectIndentation": false,
+                "editor.renderIndentGuides": false,
                 "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
             },
             "[ACUCOBOL]": {
                 "editor.insertSpaces": true,
                 "files.autoGuessEncoding": false,
-                "editor.autoIndent": false,
                 "editor.formatOnType": false,
                 "editor.rulers": [
                     6,
@@ -234,7 +234,6 @@
                 "editor.insertSpaces": true,
                 "files.autoGuessEncoding": true,
                 "editor.formatOnType": false,
-                "editor.autoIndent": false,
                 "editor.rulers": [
                     6,
                     7,
@@ -246,7 +245,6 @@
             "[dir]": {
                 "editor.insertSpaces": true,
                 "files.autoGuessEncoding": false,
-                "editor.autoIndent": false,
                 "editor.formatOnType": false,
                 "editor.rulers": [],
                 "editor.detectIndentation": false,
@@ -256,7 +254,6 @@
                 "files.autoGuessEncoding": false,
                 "editor.detectIndentation": false,
                 "editor.formatOnType": false,
-                "editor.autoIndent": false,
                 "editor.rulers": [
                     71,
                     72,
