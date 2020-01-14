@@ -1,28 +1,21 @@
 {
-    "name": "cobol",
-    "displayName": "COBOL",
-    "description": "COBOL, JCL, PL/I & DIR syntax support",
-    "version": "5.1.10",
-    "publisher": "bitlang",
+    "name": "mfcobol",
+    "displayName": "MF COBOL",
+    "description": "MF COBOL support",
+    "version": "1.0.0",
+    "publisher": "gmonteeeiro",
     "keywords": [
         "cobol",
-        "jcl",
-        "pl/i",
-        "pli",
-        "mvs",
         "mfcobol",
-        "visualcobol",
-        "gnucobol",
-        "opencobol",
-        "cobol-it"
+        "visualcobol"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/spgennard/vscode_cobol"
+        "url": "https://github.com/gmonteeeiro/vscode_cobol"
     },
     "bugs": {
-        "url": "https://github.com/spgennard/vscode_cobol/issues",
-        "email": "stephen@gennard.net"
+        "url": "https://github.com/gmonteeeiro/vscode_cobol/issues",
+        "email": "gabriel@monteiro.dev"
     },
     "engines": {
         "vscode": "^1.31.1"
@@ -54,10 +47,10 @@
     ],
     "main": "./out/extension",
     "license": "MIT",
-    "homepage": "https://github.com/spgennard/vscode_cobol",
+    "homepage": "https://github.com/gmonteeeiro/vscode_cobol",
     "author": {
-        "name": "Stephen Gennard",
-        "email": "stephen@gennard.net"
+        "name": "Gabriel Monteiro",
+        "email": "gabriel@monteiro.dev"
     },
     "contributes": {
         "configuration": {
@@ -80,22 +73,26 @@
                         0,
                         7,
                         11,
-                        15,
-                        19,
+                        14,
+                        17,
+                        20,
                         23,
-                        27,
-                        31,
+                        26,
+                        29,
+                        32,
                         35,
-                        39,
-                        43,
+                        38,
+                        41,
+                        44,
                         47,
-                        51,
-                        55,
+                        50,
+                        53,
+                        56,
                         59,
-                        63,
-                        67,
-                        72,
-                        79
+                        62,
+                        65,
+                        68,
+                        70
                     ],
                     "description": "COBOL tabstops"
                 },
@@ -208,8 +205,8 @@
                 "**/*.pdb": true
             },
             "[COBOL]": {
-                "files.autoGuessEncoding": true,
-                "editor.autoIndent": false,
+                "files.autoGuessEncoding": false,
+                "files.encoding": "windows1252",
                 "editor.insertSpaces": true,
                 "editor.formatOnType": true,
                 "editor.rulers": [
@@ -295,8 +292,7 @@
                 "filenames": [
                     "SQLCA"
                 ],
-                "firstLine": 
-                ".*(\\$[sS][eE][tT]|[pP][rR][oO][gG][rR][aA][mM]\\-[iI][dD]|[iI][dD][eE][nN][tT][iI][fF][iI][cC][aA][tT][iI][oO][nN]|\\*.[mM][iI][cC][rR][oO]).*",
+                "firstLine": ".*(\\$[sS][eE][tT]|[pP][rR][oO][gG][rR][aA][mM]\\-[iI][dD]|[iI][dD][eE][nN][tT][iI][fF][iI][cC][aA][tT][iI][oO][nN]|\\*.[mM][iI][cC][rR][oO]).*",
                 "extensions": [
                     ".cbl",
                     ".cblsrce",
