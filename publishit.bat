@@ -8,7 +8,7 @@ git push
 @if errorlevel 1 goto theend
 
 
-vsce publish
+vsce publish %1
 @if errorlevel 1 goto theend
 
 
